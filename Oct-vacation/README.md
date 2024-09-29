@@ -19,7 +19,7 @@
 
 - [Oct-vacation](#oct-vacation)
   - [目录](#目录)
-  - [Task 1. Language C](#task-1-language-c)
+  - [Task 1. Language - C](#task-1-language---c)
     - [Background](#background)
     - [Task](#task)
     - [Resources](#resources)
@@ -27,7 +27,7 @@
     - [Background](#background-1)
     - [Task](#task-1)
     - [Resources](#resources-1)
-  - [Task 3. Language JavaScript](#task-3-language-javascript)
+  - [Task 3. Language - JavaScript](#task-3-language---javascript)
     - [Background](#background-2)
     - [Task](#task-2)
     - [Resources](#resources-2)
@@ -36,7 +36,7 @@
     - [Task](#task-3)
     - [Resources](#resources-3)
 
-## Task 1. Language C
+## Task 1. Language - C
 
 ### Background
 
@@ -77,7 +77,7 @@ PS：还是那句话，尽量记录过程中遇到的问题！！！
 
 PS：我在大一时，在老师的帮助下，想到了一个本质上是极为类似桶排序的算法，其时间复杂度可以低至 O(8n)。如果你们有兴趣，后续我会把思路讲出来，我们一起实现它！做一个先锋的排序算法代码 show！
 
-## Task 3. Language JavaScript
+## Task 3. Language - JavaScript
 
 ### Background
 
@@ -89,9 +89,15 @@ JavaScript 是一种脚本语言，它可以在浏览器中运行，也可以在
 
 ### Task
 
-所以，你们的任务 3 就是，使用 nodejs，搭建起一个 JavaScript 开发环境，并保证一个菜鸟教程里的示例代码能够在本地运行起来。
+所以，你们的任务 3 就是，使用 nodejs，搭建起一个 JavaScript 开发环境，并保证一个菜鸟教程里的示例代码(**点亮灯泡**的那部分)能够在本地运行起来。
+
+PS：尽量记录过程中遇到的问题！！！并且，请使用我提供的那两个 gif，不要用人家的图片！(这样你们能学习到一些“路径”的知识)
 
 ### Resources
+
+- [nodejs 下载处](https://nodejs.org/zh-cn/download/)
+- [怎么用 nodejs 编译 js 文件](https://cloud.tencent.com/developer/article/1836840)
+- [示例代码寻址处 / js 教程](https://www.runoob.com/js/js-intro.html)
 
 ## Task 4.
 
