@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>计算器</title>
+</head>
+
+<body>
+  <script>
+    function calculate(expression) {
+      const numberStack = [];
+      const operatorStack = [];
+
+      const operators = {
+        "+": (a, b) => a + b,
+        "-": (a, b) => a - b,
+        "*": (a, b) => a * b,
+        "/": (a, b) => a / b,
+      };
+
+      const precedence = {
+        "+": 1,
+        "-": 1,
+        "*": 2,
+        "/": 2,
+      };
+
+      function applyOperator(oper, second, first) {
+
+        return operators[oper](first, second);
+      }
+
+      function greaterPrecedence(op1, op2) {
+
+        return precedence[op1] >= precedence[op2];
+      }
+
+      function evaluate() {
+        while (operatorStack.length > 0) {
+          const first = numberStack.pop();
+          const second = numberStack.pop();
+          const oper = operatorStack.pop();
+          numberStack.push(applyOperator(oper, first, second));
+        }
+        return numberStack.pop();
+      }
+
+      const tokens = expression.match(/(\d+(\.\d+)?|[\+\-\*\/])/g);
+
+      for (const token of tokens) {
+        if (!isNaN(token)) {
+          numberStack.push(parseFloat(token));
+        } else if (["+", "-", "*", "/"].includes(token)) {
+          while (
+            operatorStack.length > 0 &&
+            greaterPrecedence(operatorStack[operatorStack.length - 1], token)
+          ) {
+
+            numberStack.push(
+              applyOperator(
+                operatorStack.pop(),
+                numberStack.pop(),
+                numberStack.pop()
+              )
+            );
+          }
+
+          operatorStack.push(token);
+        }
+      }
+
+      return evaluate();
+    }
+
+    let signin = prompt('请输入你要计算的算式')
+    let result = calculate(signin)
+    document.write(result)
+  </script>
+</body>
+
+</html>
