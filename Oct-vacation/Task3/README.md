@@ -1,7 +1,7 @@
 # Task 3
 
 用html和Github Pages在网页上实现了计算器功能。  
-网址：[只会简单四则运算的计算器]（https://tingfeng36.github.io/P-2024-plan/）
+网址：[只会简单四则运算的计算器](https://tingfeng36.github.io/P-2024-plan/)  
 **踩的坑：**  
 1.写html的时候不能同时把外部和内部的js文件写在一个body里吗？  
   当时想直接引用外部的js文件，发现无法正常运算出结果。  
