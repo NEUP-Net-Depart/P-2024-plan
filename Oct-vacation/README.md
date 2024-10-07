@@ -143,3 +143,4 @@ PS：尽量记录过程中遇到的问题！！！并且，请使用我提供的
 | github 昵称 |    上面是示例，这行留着，在下面另起一行去写    |
 | chiyuki0325 |   https://github.com/chiyuki0325/P-2024-Plan   |
  | Hixz123 | https://github.com/Hixz123/P-2024-plan |
+| CanghaiCC | https://github.com/CanghaiCC/P-2024-plan |
