@@ -85,5 +85,6 @@ function calculate(expression) {
 }
 
 // 使用示例
-const result = calculate("3.5+4*2/5-1");
+const args = process.argv.slice(2);
+const result = calculate(args.join(' '));
 console.log(result); // 输出计算结果
