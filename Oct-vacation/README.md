@@ -141,3 +141,4 @@ PS：尽量记录过程中遇到的问题！！！并且，请使用我提供的
 | :---------: | :--------------------------------------------: |
 | TingFeng36 | https://github.com/TingFeng36/P-2024-plan/tree/master/Oct-vacation |
 | github 昵称 |    上面是示例，这行留着，在下面另起一行去写    |
+| chiyuki0325 |   https://github.com/chiyuki0325/P-2024-Plan   |
