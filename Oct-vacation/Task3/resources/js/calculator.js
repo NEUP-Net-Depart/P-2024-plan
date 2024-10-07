@@ -1,3 +1,25 @@
+
+
+
+
+document.addEventListener('DOMContentLoaded', function() {  
+  const input = document.getElementById('input');      // 获取页面元素  
+  const button = document.getElementById('button');  
+  const resultSpan = document.getElementById('result');  
+
+  button.addEventListener('click', function() {      // 添加事件监听器 
+
+  const expression = input.value;      // 读取输入框中表达式 
+
+  const result = calculate(expression);        // 调用 calculate 
+  
+  resultSpan.textContent = result;       // 结果显示 
+    
+  });  
+});
+ 
+
+
 function calculate(expression) {
   // 数栈用于存储操作数
   const numberStack = [];
@@ -84,6 +106,6 @@ function calculate(expression) {
   return evaluate();
 }
 
-// 使用示例
-const result = calculate("3.5+4*2/5-1");
-console.log(result); // 输出计算结果
+
+
+
