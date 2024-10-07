@@ -10,6 +10,10 @@ function calculate(expression) {
     "-": (a, b) => a - b, // 减法操作
     "*": (a, b) => a * b, // 乘法操作
     "/": (a, b) => a / b, // 除法操作
+    "^": (a, b) => a ** b, // 指数操作
+    "sin": (a) => Math.sin(a), // 正弦操作
+    "cos": (a) => Math.cos(a), // 余弦操作
+    "tan": (a) => Math.tan(a), // 正切操作
   };
 
   // 定义操作符的优先级，用于确定何时应用操作符
@@ -18,6 +22,10 @@ function calculate(expression) {
     "-": 1,
     "*": 2, // 乘法和除法的优先级为2
     "/": 2,
+    "^": 3, // 指数操作的优先级为3
+    "sin": 4, // 正弦操作的优先级为4
+    "cos": 4, // 余弦操作的优先级为4
+    "tan": 4, // 正切操作的优先级为4
   };
 
   // applyOperator 函数用于执行具体的运算操作
@@ -25,7 +33,11 @@ function calculate(expression) {
     // oper 是操作符，second 和 first 是操作数
     // 注意：这里 first 和 second 的顺序与常规的数学运算顺序相反
     // 因为它们是从栈中弹出的，而栈是后进先出的结构
-    return operators[oper](first, second);
+    if (oper === "sin" || oper === "cos" || oper === "tan"){
+      return operators[oper](second);
+    }else{
+      return operators[oper](first, second);
+    }
   }
 
   // greaterPrecedence 函数用于比较两个操作符的优先级
@@ -39,27 +51,28 @@ function calculate(expression) {
   function evaluate() {
     // 当符号栈不为空时，继续执行操作
     while (operatorStack.length > 0) {
-      // 从数栈中弹出两个操作数，注意顺序
+      const oper = operatorStack.pop();
+      if (oper === "sin" || oper === "cos" || oper === "tan"){
+        const first = numberStack.pop();
+        numberStack.push(applyOperator(oper, first));
+      }else{
       const first = numberStack.pop();
       const second = numberStack.pop();
-      // 从符号栈中弹出一个操作符
-      const oper = operatorStack.pop();
-      // 执行操作并将结果压入数栈
       numberStack.push(applyOperator(oper, first, second));
     }
+  }
     // 返回最终的计算结果
     return numberStack.pop();
-  }
+}
 
   // 使用正则表达式将输入的表达式分割成操作数和操作符
-  const tokens = expression.match(/(\d+(\.\d+)?|[\+\-\*\/])/g);
+  const tokens = expression.match(/(\d+(\.\d+)?|[\+\-\*\/\^]|sin|cos|tan)/g);
 
-  // 遍历分割后的每个 token
   for (const token of tokens) {
     // 如果 token 是数字（包括小数），则将其转换为浮点数并压入数栈
     if (!isNaN(token)) {
       numberStack.push(parseFloat(token));
-    } else if (["+", "-", "*", "/"].includes(token)) {
+    } else if (["+", "-", "*", "/", "^", "sin", "cos", "tan"].includes(token)) {
       // 如果 token 是操作符，则处理符号栈中的操作符
       while (
         operatorStack.length > 0 &&
@@ -83,7 +96,8 @@ function calculate(expression) {
   // 调用 evaluate 函数计算最终结果并返回
   return evaluate();
 }
-
-// 使用示例
-const result = calculate("3.5+4*2/5-1");
-console.log(result); // 输出计算结果
+function Get() {
+  const expression = document.getElementById("expressionInput").value;
+  const result = calculate(expression);
+  document.getElementById("result").innerText = "计算结果: " + result;
+}
