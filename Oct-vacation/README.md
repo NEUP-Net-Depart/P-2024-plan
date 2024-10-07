@@ -139,5 +139,5 @@ PS：尽量记录过程中遇到的问题！！！并且，请使用我提供的
 
 | Github 昵称 |                    仓库链接                    |
 | :---------: | :--------------------------------------------: |
-| 17999824wyj | https://github.com/NEUP-Net-Depart/P-2024-plan |
+| TingFeng36 | https://github.com/TingFeng36/P-2024-plan/tree/master/Oct-vacation |
 | github 昵称 |    上面是示例，这行留着，在下面另起一行去写    |
