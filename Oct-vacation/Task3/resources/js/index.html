@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<head>
+    <title>先疯计算器（？</title>
+    <style>
+        .main {
+            margin: 23% 20% 23% 20%;
+            background-color: rgba(255, 255, 255, 1);
+            height: 70%;
+            max-height: 70%;
+            min-height: 70%;
+            justify-content: center;
+            display: flex !important;
+            flex-direction: column;
+            border: rgba(219, 219, 219, 1) solid 2px;
+            border-radius: 10px 10px 10px 10px;
+            position: static;
+            width: 800px !important;
+            max-width: 800px;
+            min-width: 800px;
+        }
+
+        .output {
+            margin: 5% 20% 5% 20%;
+            height: 15%;
+            border: rgba(219, 219, 219, 1) solid 2px;
+            border-radius: 10px 10px 10px 10px;
+            font-size: 4em;
+            text-align: center;
+            font-weight: normal;
+            vertical-align: middle;
+            position: static;
+            max-height: 15%;
+            min-height: 15%;
+            overflow-x: scroll;
+            width: 60%;
+            max-width: 60%;
+            min-width: 60%;
+        }
+
+        .input {
+            margin: 2% 10% 5% 10%;
+            height: 15%;
+            border: rgba(219, 219, 219, 1) solid 2px;
+            border-radius: 10px 10px 10px 10px;
+            text-align: center;
+            font-size: 2em;
+            cursor: text;
+            position: static;
+            max-height: 15%;
+            min-height: 15%;
+            width: 80%;
+            max-width: 80%;
+            min-width: 80%;
+        }
+
+        .button {
+            margin: 5% 45% 5% 45%;
+            height: 12%;
+            border: rgba(219, 219, 219, 1) none 0;
+            border-radius: 10px 10px 10px 10px;
+            cursor: pointer;
+            position: static;
+            max-height: 12%;
+            min-height: 12%;
+        }
+
+        .name {
+            margin: 0 5% 0 5%;
+            font-weight: bold;
+            font-size: 17px;
+            text-align: center;
+            height: 5%;
+        }
+
+        .output::-webkit-scrollbar {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="main">
+        <!-- 输入框 -->
+        <input type="text" id="Input" name="input" class="input" placeholder="请输入表达式" />
+        <!-- 输出框 -->
+        <textarea name="output" id="Output" class="output" placeholder=""></textarea>
+        <!-- 按钮 -->
+        <input type="button" id="Button" name="button" value="计算" class="button" />
+    </div>
+    <!-- 引入JavaScript代码 -->
+    <script src="calculator.js"></script>
+</body>
+
+</html>

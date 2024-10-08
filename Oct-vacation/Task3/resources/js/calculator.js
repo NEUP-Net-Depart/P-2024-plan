@@ -85,5 +85,24 @@ function calculate(expression) {
 }
 
 // 使用示例
-const result = calculate("3.5+4*2/5-1");
-console.log(result); // 输出计算结果
+// const result = calculate("3.5+4*2/5-1");
+// console.log(result); // 输出计算结果
+
+// 获取输入框，输出框，按钮信息
+// 需要在元素中添加id信息
+const Input = document.getElementById("Input");
+const Button = document.getElementById("Button");
+const Output = document.getElementById("Output");
+
+// 为按钮添加点击事件监听器
+// 这里的function()为匿名函数，在“click”事件发生后调用
+Button.addEventListener("click", function () {
+  // 获取输入框的内容
+  const expression = Input.value;
+  // 计算结果
+  let result = calculate(expression)
+  // 将结果显示在输出框中  
+  Output.value = result;
+  // 这里是对DOM的操作，直接修改界面上的元素，不用刷新整个界面
+  // 我还以为要像qt那样要刷新(((
+});
