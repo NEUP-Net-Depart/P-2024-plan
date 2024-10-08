@@ -142,7 +142,7 @@ PS：尽量记录过程中遇到的问题！！！并且，请使用我提供的
 | 17999824wyj | https://github.com/NEUP-Net-Depart/P-2024-plan |
 | github 昵称 |    上面是示例，这行留着，在下面另起一行去写    |
 | chiyuki0325 |   https://github.com/chiyuki0325/P-2024-Plan   |
- | Hixz123 | https://github.com/Hixz123/P-2024-plan |
-|   mumu948 |  https://github.com/mumu948/P-2024-plan  |
-| TingFeng36 | https://github.com/TingFeng36/2024-Plan |
-| Caleaveye | https://github.com/Canleaveye/P-2024-plan-1 |
+|   Hixz123   |     https://github.com/Hixz123/P-2024-plan     |
+|   mumu948   |     https://github.com/mumu948/P-2024-plan     |
+| TingFeng36  |    https://github.com/TingFeng36/2024-Plan     |
+|  Caleaveye  |  https://github.com/Canleaveye/P-2024-plan-1   |
