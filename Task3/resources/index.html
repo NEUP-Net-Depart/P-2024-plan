@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>简单计算器</title>
+    <style>
+      body {
+        height: 100vh;
+        margin: 0;
+        background-color: #f0f0f0;
+      }
+      .calculator {
+        background-color: #fff;
+        padding: 20px;
+        text-align: center;
+      }
+      input {
+        width: 80%;
+        padding: 10px;
+        margin: 10px 0;
+      }
+      button {
+        background-color: #0056b3;
+      }
+      #result {
+        margin-top: 20px;
+        color: #333;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="calculator">
+      <h1>简易计算器</h1>
+      <input placeholder="请输入简单的计算式子 (列如, 3 + 5 * 2)"/>
+      <button onclick="calculate()">算</button>
+      <div id="result"></div>
+    </div>
+    <script src="js/calculator.js"></script>
+  </body>
+</html>
