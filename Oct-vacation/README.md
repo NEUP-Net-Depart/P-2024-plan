@@ -152,3 +152,4 @@ PS：尽量记录过程中遇到的问题！！！并且，请使用我提供的
 |   ne1tha    |      https://github.com/ne1tha/P-2024-plan     |
 | CanghaiCC   |   https://github.com/CanghaiCC/P-2024-plan     |
 | 8888999qwe  |    https://github.com/8888999qwe/P-2024-plan   |
+|Moraxusio    |https://github.com/Moraxusio/P-2024-plan        |
