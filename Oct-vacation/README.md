@@ -146,3 +146,4 @@ PS：尽量记录过程中遇到的问题！！！并且，请使用我提供的
 |   mumu948   |     https://github.com/mumu948/P-2024-plan     |
 | TingFeng36  |    https://github.com/TingFeng36/2024-Plan     |
 |  Caleaveye  |  https://github.com/Canleaveye/P-2024-plan-1   |
+| WANGXING130 |   https://github.com/WANGXING130/P-2024.git    |
