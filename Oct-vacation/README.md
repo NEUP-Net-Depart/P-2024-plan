@@ -37,6 +37,7 @@
     - [Background](#background-3)
     - [Task](#task-3)
     - [Resources](#resources-3)
+  - [提交处](#提交处)
 
 ## Task 1. Language - C
 
@@ -131,3 +132,17 @@ PS：尽量记录过程中遇到的问题！！！并且，请使用我提供的
 
 - [示例代码寻址处 / js 教程](https://www.runoob.com/js/js-intro.html)
 - [另一个还可以的 js 教程](https://zh.javascript.info/)
+
+## 提交处
+
+将你的仓库链接，通过 pr 的形式，放置在下面的表格内，表格内有提交示例：
+
+| Github 昵称 |                    仓库链接                    |
+| :---------: | :--------------------------------------------: |
+| 17999824wyj | https://github.com/NEUP-Net-Depart/P-2024-plan |
+| github 昵称 |    上面是示例，这行留着，在下面另起一行去写    |
+| chiyuki0325 |   https://github.com/chiyuki0325/P-2024-Plan   |
+|   Hixz123   |     https://github.com/Hixz123/P-2024-plan     |
+|   mumu948   |     https://github.com/mumu948/P-2024-plan     |
+| TingFeng36  |    https://github.com/TingFeng36/2024-Plan     |
+|  Caleaveye  |  https://github.com/Canleaveye/P-2024-plan-1   |
