@@ -1,6 +1,6 @@
 # Task 1
 
-之前用的就是vscode写的c
+请补充个人信息后，在此完成报告！
 
-@Author:  潘紫城
-@Email:2324284600@qq.com
+@Author:  
+@Email:
