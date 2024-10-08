@@ -149,3 +149,4 @@ PS：尽量记录过程中遇到的问题！！！并且，请使用我提供的
 | WANGXING130 |   https://github.com/WANGXING130/P-2024.git    |
 |  Red-Sa1t   |     https://github.com/Red-Sa1t/P-2024-plan    |
 |   gmyy00    |     https://github.com/gmyy00/P-2024-plan      |
+|   ne1tha    |    https://github.com/ne1tha/P-2024-plan.git   |
