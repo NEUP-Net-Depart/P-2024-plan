@@ -2,10 +2,10 @@
 
 请补充个人信息后，在此完成报告！
 
-```@Author:  24网络部林荣强
+@Author:  24网络部林荣强
 @Email:  3500954350@qq.com
 实现冒泡排序
-#include<stdio.h>
+```#include<stdio.h>
 void bubbleSort(int arr[], int n) {
     for (int i = 0; i < n - 1; i++) {
         for (int j = 0; j < n - i - 1; j++) {
