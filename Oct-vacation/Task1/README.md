@@ -9,5 +9,8 @@
 
 2.安装MinGW-w64
 (https://sourceforge.net/projects/mingw-w64/)
+(跟着视频还忘记解压太痛苦了)
 
 3.安装C/C++插件
+
+4.写个hello world测试一下
