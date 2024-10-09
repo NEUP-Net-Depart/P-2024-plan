@@ -156,3 +156,4 @@ PS：尽量记录过程中遇到的问题！！！并且，请使用我提供的
 |frigidom1024 |   https://github.com/frigidom1024/P-2024-plan  |
 |  Moraxusio  |    https://github.com/Moraxusio/P-2024-plan    |
 |   ljy-dyvn  |   https://github.com/ljy-dyvn/P-2024-plan      |
+| yifan112358 |   https://github.com/yifan112358/P-2024-plan   |
