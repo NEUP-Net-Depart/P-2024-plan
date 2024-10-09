@@ -146,5 +146,13 @@ PS：尽量记录过程中遇到的问题！！！并且，请使用我提供的
 |   mumu948   |     https://github.com/mumu948/P-2024-plan     |
 | TingFeng36  |    https://github.com/TingFeng36/2024-Plan     |
 |  Caleaveye  |  https://github.com/Canleaveye/P-2024-plan-1   |
-| WANGXING130 |   https://github.com/WANGXING130/P-2024.git    |
-| ljy-dyvn    |   https://github.com/ljy-dyvn/P-2024-plan      |
+| WANGXING130 |     https://github.com/WANGXING130/P-2024      |
+|  Red-Sa1t   |     https://github.com/Red-Sa1t/P-2024-plan    |
+|   gmyy00    |     https://github.com/gmyy00/P-2024-plan      |
+|   ne1tha    |      https://github.com/ne1tha/P-2024-plan     |
+| CanghaiCC   |   https://github.com/CanghaiCC/P-2024-plan     |
+| 8888999qwe  |    https://github.com/8888999qwe/P-2024-plan   |
+|Zeitgeist-tori| https://github.com/Zeitgeist-tori/P-2024-plan |
+|frigidom1024 |   https://github.com/frigidom1024/P-2024-plan  |
+|  Moraxusio  |    https://github.com/Moraxusio/P-2024-plan    |
+|   ljy-dyvn  |   https://github.com/ljy-dyvn/P-2024-plan      |
