@@ -158,4 +158,4 @@ PS：尽量记录过程中遇到的问题！！！并且，请使用我提供的
 |   ljy-dyvn  |   https://github.com/ljy-dyvn/P-2024-plan      |
 | yifan112358 |   https://github.com/yifan112358/P-2024-plan   |
 | Gulbanu-Mamat | https://github.com/gulbanu-mamat/gulbanu.git |
-
+|    xvgua    |     https://github.com/xvgua/P-2024-plan       |
