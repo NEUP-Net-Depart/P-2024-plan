@@ -207,3 +207,4 @@ python 因为其易用性，在数学建模中，发挥着重要的作用。因�
 | chiyuki0325 |   https://github.com/chiyuki0325/P-2024-plan   |
 |   Red-Sa1t  |     https://github.com/Red-Sa1t/P-2024-plan    |
 |   mumu948   |     https://github.com/mumu948/P-2024-plan     |
+|Zeitgeist-tori| https://github.com/Zeitgeist-tori/P-2024-plan |
