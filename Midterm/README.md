@@ -202,4 +202,10 @@ python 因为其易用性，在数学建模中，发挥着重要的作用。因�
 | :---------: | :--------------------------------------------: |
 | 17999824wyj | https://github.com/NEUP-Net-Depart/P-2024-plan |
 | github 昵称 |    上面是示例，这行留着，在下面另起一行去写    |
-|             |                                                |
+|   gmyy00    |     https://github.com/gmyy00/P-2024-plan      |
+|   neltha    |   https://github.com/ne1tha/P-2024-plan.git    |
+| chiyuki0325 |   https://github.com/chiyuki0325/P-2024-plan   |
+|   Red-Sa1t  |     https://github.com/Red-Sa1t/P-2024-plan    |
+|   mumu948   |     https://github.com/mumu948/P-2024-plan     |
+| WANXING130  |    https://github.com/WANGXING130/P-2024.git   |
+
